@@ -34,7 +34,8 @@ export default function ButtonReflexo({
   const shineThemes = {
     light: 'bg-white/40',
     dark: 'bg-white/40',
-    default: 'bg-white/40',
+    defaultDark: 'bg-white/40',
+    defaultLight: 'bg-white/40',
   }
 
   const primaryColors = isLigar
