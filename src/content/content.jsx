@@ -1,16 +1,16 @@
-import logo from '../assets/imgs/logo/logo.webp'
-import logoDesktop from '../assets/imgs/logo/logoDesktop.webp'
-import heroDefaultImg from '../assets/imgs/hero/lawHero.webp'
-import heroDefaultMobileImg from '../assets/imgs/hero/lawHeroMobile.webp'
+import logo from "../assets/imgs/logo/logo.webp";
+import logoDesktop from "../assets/imgs/logo/logoDesktop.webp";
+import heroDefaultImg from "../assets/imgs/hero/lawHero.webp";
+import heroDefaultMobileImg from "../assets/imgs/hero/lawHeroMobile.webp";
 
-import imgFeatures from '../assets/imgs/features/imgServices.webp'
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 
-import aboutImg from '../assets/imgs/about/aboutImg.webp'
+import aboutImg from "../assets/imgs/about/aboutImg.webp";
 // import team1 from '../assets/imgs/team/team1.webp'
 // import team2 from '../assets/imgs/team/team2.webp'
 // import aboutSocialImg from '../assets/imgs/about/aboutSocial.webp'
 
-import imgSteps from '../assets/imgs/steps/imgSteps.webp'
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 // import logo1 from '../assets/imgs/parceria/Logo1.webp'
 // import logo2 from '../assets/imgs/parceria/Logo2.webp'
 // import logo3 from '../assets/imgs/parceria/Logo3.webp'
@@ -32,31 +32,31 @@ import {
   HandCoins,
   Check,
   Shield,
-} from 'lucide-react'
+} from "lucide-react";
 
-import { FileText } from 'lucide-react'
+import { FileText } from "lucide-react";
 
-const currentYear = new Date().getFullYear()
+const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: 'Dr. Sérgio Antonio',
-  email: 'contato', // Email desejado pelo cliente
-  emailSecundario: 'A_Definir', // Email desejado pelo cliente
-  domain: 'sergioantonioadvocacia.com.br', // Sem "www"
+  name: "Dr. Sérgio Antonio",
+  email: "contato", // Email desejado pelo cliente
+  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  domain: "sergioantonioadvocacia.com.br", // Sem "www"
   phone: {
-    ddd: '31',
-    firstPart: '99429', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '4125', // Apenas os 4 últimos números
+    ddd: "31",
+    firstPart: "99429", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "4125", // Apenas os 4 últimos números
   },
   phoneSecundario: {
-    ddd: '00',
-    firstPart: '00000', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '0000', // Apenas os 4 últimos números
+    ddd: "00",
+    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
   },
   phoneTerciario: {
-    ddd: '00',
-    firstPart: '00000', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '0000', // Apenas os 4 últimos números
+    ddd: "00",
+    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -82,18 +82,18 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A_Definir </span>,
-  instagramProfile: '', // Sem o @
-  facebookProfile: '',
-  linkeDinProfile: '',
-  x: '',
-  tiktokProfile: '',
+  instagramProfile: "", // Sem o @
+  facebookProfile: "",
+  linkeDinProfile: "",
+  x: "",
+  tiktokProfile: "",
 
   whatsappDefaultMessage:
-    'Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.',
+    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   whatsChatDefaultMessage:
-    'Gostaria de falar conosco agora mesmo? Clque abaixo 👇',
-  slogan: '',
-}
+    "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
+  slogan: "",
+};
 
 const content = {
   texts: {
@@ -108,17 +108,17 @@ const content = {
         alt: `Logomarca ${infos.name}`,
       },
       menuItems: [
-        'Início',
-        'Serviços',
-        'Sobre',
-        'Perguntas',
+        "Início",
+        "Serviços",
+        "Sobre",
+        "Perguntas",
         // 'Blog',
         // 'Mapa',
       ],
-      menuId: ['home', 'feature', 'about', 'faq'],
-      ariaLabel: 'Botão de Contato',
-      ctaButtonText: 'Contato',
-      ctaButtonTextResponsive: 'Contato',
+      menuId: ["home", "feature", "about", "faq"],
+      ariaLabel: "Botão de Contato",
+      ctaButtonText: "Contato",
+      ctaButtonTextResponsive: "Contato",
     },
     hero: {
       miniTag: <>ESCRITÓRIO DE ADVOCACIA</>,
@@ -136,9 +136,9 @@ const content = {
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
       heroDefaulMobiletImg: heroDefaultMobileImg,
 
-      alt: 'Imagem ilustrativa da Seção Início',
+      alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
-        'Botão para chamada de ação para contato pelo whatsapp',
+        "Botão para chamada de ação para contato pelo whatsapp",
       ctaButtonText: <>Falar com o Dr. Sérgio Antonio</>,
       ctaButtonTextSecondary: <>A_Definir</>,
       obsHero: {
@@ -147,7 +147,7 @@ const content = {
         text: <>Atendimento online para todo Brasil.</>,
         textTwo: <>A_Definir</>,
       },
-      secondaryCta: 'Contato',
+      secondaryCta: "Contato",
     },
     important: {
       miniTag: <>A_Definir</>,
@@ -190,37 +190,10 @@ const content = {
       subtitleMessageFeature: <>foco no resultado</>,
       cards: {
         card1: {
-          title: <>Direito de Trânsito</>,
-          subtitle: (
-            <>
-              {' '}
-              • Defesa em processos administrativos (CNH, suspensão e cassação)
-              <br />
-              • Recursos de multas
-              <br />
-              • Acidentes de trânsito
-              <br />
-              • Responsabilidade civil decorrente de acidentes
-              <br />• Indenizações por danos materiais, morais e estéticos
-            </>
-          ),
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: <Briefcase />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
-        },
-        card2: {
           title: <>Direito Securitário</>,
           subtitle: (
             <>
-              {' '}
+              {" "}
               • Ações contra seguradoras por negativa indevida de cobertura
               <br />
               • Revisão de cláusulas abusivas
@@ -236,7 +209,34 @@ const content = {
               • Reparação de danos materiais, morais e estéticos
               <br />
               • Atuação judicial e extrajudicial
-              <br />• Estratégias para maximização de indenizações{' '}
+              <br />• Estratégias para maximização de indenizações{" "}
+            </>
+          ),
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <Briefcase />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+        card2: {
+          title: <>Direito de Trânsito</>,
+          subtitle: (
+            <>
+              {" "}
+              • Acidentes de trânsito
+              <br />
+              • Responsabilidade civil decorrente de acidentes
+              <br />
+              • Indenizações por danos materiais, morais e estéticos
+              <br />
+              • Defesa em processos administrativos (CNH, suspensão e cassação)
+              <br />• Recursos de multas
             </>
           ),
           description: (
@@ -248,14 +248,14 @@ const content = {
             </div>
           ),
           icon: <User />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
         },
         card3: {
           title: <>Direito do Consumidor</>,
           subtitle: (
             <>
-              {' '}
+              {" "}
               • Falha na prestação de serviços
               <br />
               • Cobranças indevidas
@@ -275,14 +275,14 @@ const content = {
             </div>
           ),
           icon: <Scale />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
         },
         card4: {
           title: <>Direito de Família</>,
           subtitle: (
             <>
-              {' '}
+              {" "}
               • Divórcio judicial e extrajudicial
               <br />
               • Pensão alimentícia
@@ -290,7 +290,7 @@ const content = {
               • Guarda e regulamentação de visitas
               <br />
               • Partilha de bens
-              <br />• Inventário{' '}
+              <br />• Inventário{" "}
             </>
           ),
           description: (
@@ -302,8 +302,8 @@ const content = {
             </div>
           ),
           icon: <Gavel />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
         },
       },
       ctaButtonText: <>A_Definir</>,
@@ -323,7 +323,7 @@ const content = {
     about: {
       imagem: {
         img: aboutImg,
-        alt: 'Imagem ilustrativa da Seção Sobre',
+        alt: "Imagem ilustrativa da Seção Sobre",
       },
       miniTag: <>QUEM É O DR. SÉRGIO ANTONIO</>,
       FirstPart: <span> Minha</span>,
@@ -342,7 +342,7 @@ const content = {
         </div>
       ),
       ctaButtonText: <>A_Definir</>,
-      buttonModalLabelAbout: 'Continuar lendo',
+      buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p className="font-secondFont">
           Com 10 anos de atuação na advocacia, construí minha trajetória
@@ -366,8 +366,8 @@ const content = {
           proteção dos seus direitos e na solução efetiva do seu problema.
         </p>
       ),
-      paragraphModalCta: 'Entre em contato',
-      ctaButtonAriaLabel: 'Botão para entrar em contato',
+      paragraphModalCta: "Entre em contato",
+      ctaButtonAriaLabel: "Botão para entrar em contato",
 
       // aboutSocial: {
       //   img: {
@@ -405,7 +405,7 @@ const content = {
       ctaButtonText: <>Entrar em Contato</>,
 
       ctaButtonAriaLabel:
-        'Botão para chamada de ação para contato pelo whatsapp',
+        "Botão para chamada de ação para contato pelo whatsapp",
     },
     steps: {
       miniTag: <>PASSO A PASSO</>,
@@ -415,7 +415,7 @@ const content = {
 
       subtitle: <></>,
       img: imgSteps,
-      alt: 'Imagem ilustrativa da Seção Passo a Passo',
+      alt: "Imagem ilustrativa da Seção Passo a Passo",
       cards: {
         card1: {
           stepNumber: 1,
@@ -465,10 +465,10 @@ const content = {
     blog: {
       miniTag: <>A_Definir</>,
       title: <>A_Definir</>,
-      subtitle: '',
+      subtitle: "",
       img: imgSteps,
-      labelCards: 'Ver mais',
-      label: 'Clique aqui para ver todas as matérias',
+      labelCards: "Ver mais",
+      label: "Clique aqui para ver todas as matérias",
       blogLink: <>A_Definir</>, //sem "https://"
     },
     parceria: {
@@ -477,25 +477,25 @@ const content = {
       subtitle: <>A_Definir</>,
       images: [
         {
-          role: 'A_Definir',
+          role: "A_Definir",
           // img: logo1,
-          alt: 'Logomarca parceira',
-          description: 'A_Definir',
-          name: 'A_Definir',
+          alt: "Logomarca parceira",
+          description: "A_Definir",
+          name: "A_Definir",
         },
         {
-          role: 'A_Definir',
+          role: "A_Definir",
           // img: logo2,
-          alt: 'Logomarca parceira',
-          description: 'A_Definir',
-          name: 'A_Definir',
+          alt: "Logomarca parceira",
+          description: "A_Definir",
+          name: "A_Definir",
         },
         {
-          role: 'A_Definir',
+          role: "A_Definir",
           // img: logo3,
-          alt: 'Logomarca parceira',
-          description: 'A_Definir',
-          name: 'A_Definir',
+          alt: "Logomarca parceira",
+          description: "A_Definir",
+          name: "A_Definir",
         },
       ],
     },
@@ -543,7 +543,7 @@ const content = {
         },
       },
 
-      paragraph: 'Clique aqui caso tenha mais dúvidas',
+      paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     // team: {
     //   miniTag: <>A_Definir</>,
@@ -813,13 +813,13 @@ const content = {
     // },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
-      footerDivulgacaoText: 'Gostaria de ter um site como este? Clique aqui',
-      midSectionName: 'Até mais',
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      midSectionName: "Até mais",
       footerText:
-        'Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.',
-      footerSocialText: 'Siga a gente nas redes sociais:',
-      footerNavegacaoText: 'NAVEGAÇÃO',
-      desenvolvidoPor: 'Desenvolvido com excelência por Paper Street',
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+      footerSocialText: "Siga a gente nas redes sociais:",
+      footerNavegacaoText: "NAVEGAÇÃO",
+      desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
       privacidade: (
         <div class="phone3:max-w-3xl mx-auto tablet1:px-6 text-gray-900 leading-relaxed font-secondFont">
           <h1 class="text-3xl font-bold mb-6">Política de Privacidade</h1>
@@ -845,7 +845,7 @@ const content = {
 
           <ul class="list-disc ml-6 mb-6 space-y-2">
             <li>
-              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{' '}
+              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{" "}
               órgão responsável pela fiscalização e aplicação da LGPD.
             </li>
 
@@ -1052,9 +1052,9 @@ const content = {
         </div>
       ),
       pontos: {
-        ponto1: 'Profissionalismo',
-        ponto2: 'Experiência',
-        ponto3: 'Resultados',
+        ponto1: "Profissionalismo",
+        ponto2: "Experiência",
+        ponto3: "Resultados",
       },
     },
     // socios: {
@@ -1126,8 +1126,8 @@ const content = {
       year: currentYear,
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,
-      footerNavegacaoText: 'NAVEGAÇÃO',
-      footerDivulgacaoText: 'Gostaria de ter um site como este? Clique aqui',
+      footerNavegacaoText: "NAVEGAÇÃO",
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
     svgs: {
       wpp: (
@@ -1143,11 +1143,11 @@ const content = {
       ),
     },
   },
-}
+};
 
 export const abstractions = {
   titleModal: <strong>{content.texts.about.title}</strong>,
   subtitleModal: <strong>{content.texts.about.subtitle}</strong>,
-}
+};
 
-export default content
+export default content;
